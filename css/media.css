@@ -1,0 +1,328 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .main-menu ul li {
+        padding-left: 3px;
+    }
+    .img-descr {
+        left: 395px;
+    }
+    .social-footer .soc li {
+        margin: 1px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    #footer-wr {
+        padding-top: 35px;
+    }
+    .contacts-container {
+        padding-top: 0;
+    }
+    .logo-top img, .logo-bottom-wr img {
+        max-width: 90px;
+        height: 70px;
+    }
+    .main-menu {
+        font-size: 13px;
+    }
+    .contacts-container ul li {
+        font-size: 14px;
+        padding: 0;
+    }
+    .contacts-container .fa {
+        font-size: 14px;
+    }
+    .logo-tel-wrap {
+        padding-top: 5px;
+    }
+    .main-menu ul li {
+        padding-left: 5px;
+    }
+    .main-menu {
+        padding-top: 30px;
+    }
+    .reserve-item p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .img-descr {
+        left: 285px;
+    }
+    .publish-item, .publish-item-last {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .publish-item span, .publish-item-last span {
+        font-size: 28px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .reserve-item img:hover {
+        transform: rotate(0deg);
+    }
+    .main-menu {
+        display: none;
+    }
+    .burger-wrap {
+        display: block;
+    }
+    .headhesive {
+        top: 0;
+    }
+
+    .logo-top {
+        margin-left: 35px;
+    }
+    .reserve-btn {
+        margin-top: 30px;
+    }
+    .reserve-item p {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    .publish-item::after {
+        display: none;
+    }
+    .logo-tel-wrap {
+        padding-top: 3px;
+    }
+}
+
+@media only screen and (max-width : 600px){
+    .img-descr {
+        left: 223px;
+        padding-top: 37px;
+    }
+    .h2-black, .h2-white {
+        font-size: 35px;
+    }
+    .top-title {
+        padding-top: 35px;
+    }
+    .h1-main {
+        font-size: 45px;
+    }
+    .h1-description {
+        font-size: 30px;
+    }
+    .text-conteiner {
+        font-size: 17px;
+    }
+    .reserve-txt {
+        padding-top: 10px;
+    }
+    .reserve-btn {
+        margin-top: 10px;
+    }
+    .mouse-down {
+        padding-top: 50px;
+    }
+    #header-wrap {
+        padding-bottom: 80px;
+    }
+    .text-conteiner {
+        padding-top: 25px;
+    }
+    #about {
+        padding-top: 35px;
+        padding-bottom: 80px;
+    }
+    .about-content {
+        padding-top: 35px;
+    }
+    .about-content {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .reserve-btn {
+        margin-top: 25px;
+    }
+    #reserve {
+        padding-top: 35px;
+        padding-bottom: 80px;
+    }
+    .reserve-items {
+        padding-top: 30px;
+    }
+    .reserve-item p {
+        font-size: 18px;
+    }
+    .reserve-item-img {
+        margin-top: 20px;
+    }
+    #moderators {
+        padding-top: 35px;
+        padding-bottom: 80px;
+    }
+    #moderators p {
+        font-size: 20px;
+    }
+    .moderators-descr {
+        padding-top: 10px;
+    }
+    .item img {
+        width: 155px;
+    }
+    .img-descr {
+        width: 155px;
+    }
+    .owl-theme .owl-controls .owl-buttons div {
+        margin-top: 0;
+        zoom: 1.7;
+    }
+    #publish {
+        padding-top: 35px;
+        padding-bottom: 80px;
+    }
+    .publish-descr {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .publish-items {
+        padding-top: 55px;
+    }
+    .publish-item, .publish-item-last {
+        font-size: 17px;
+    }
+    .publish-item span, .publish-item-last span {
+        padding-bottom: 5px;
+    }
+    #form-bottom-wrap {
+        padding-top: 35px;
+        padding-bottom: 80px;
+    }
+    .form-bottom-descr {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .form-bottom {
+        padding-top: 55px;
+    }
+    #footer-wr {
+        padding-top: 35px;
+    }
+    /*.social-footer {*/
+        /*margin-top: 5px;*/
+    /*}*/
+    .footer-addr {
+        font-size: 13px;
+        margin: 0 0 18px;
+    }
+    .license {
+        font-size: 14px;
+    }
+    .form-bottom input, .form-bottom textarea {
+        width: 450px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .form-bottom input, .form-bottom textarea {
+        width: 295px;
+    }
+    .h1-main {
+        font-size: 35px;
+    }
+    .h2-black, .h2-white {
+        font-size: 30px;
+    }
+    #moderators p {
+        font-size: 18px;
+    }
+    .footer-contacts {
+        padding-left: 5px;
+    }
+    .license {
+        font-size: 13px;
+    }
+    .publish-item, .publish-item-last {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .img-descr {
+        left: 163px;
+    }
+    .contacts-p {
+        font-size: 12px;
+    }
+    .footer-addr {
+        font-size: 11px;
+        padding-left: 18px;
+        margin-bottom: 10px;
+    }
+    .soc a {
+        font-size: 13px;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+    }
+    .top-descr {
+        font-size: 12px;
+    }
+    .footer-addr .fa {
+        font-size: 12px;
+    }
+    .social-footer .soc li {
+        margin: 0;
+    }
+    .logo-bottom-wr {
+        padding-top: 70px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .form-bottom input, .form-bottom textarea {
+        width: 292px;
+    }
+    .footer-addr {
+        line-height: 17px;
+    }
+    .license {
+        font-size: 10px;
+    }
+    .img-descr {
+        left: 83px;
+    }
+    .h1-main::after {
+        width: 260px;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+@media (min-height: 680px) and (min-width : 1400px) {
+
+}
